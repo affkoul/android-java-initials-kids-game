@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Initials</string>
+
+    <string name="new_game">New Game</string>
+    <string name="return_home">Home Screen</string>
+    <string name="music_credit">geniusandcourage.com<a href="https://geniusandcourage.com/"></a></string>
+    <string name="underscore">_</string>
+    <string name="game_end">End Game</string>
+    <string name="next_button">Next</string>
+
+</resources>

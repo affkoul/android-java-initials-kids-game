@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:id="@+id/fragment_congrat"
+                                             android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:layout_editor_absoluteY="81dp"
+                                             tools:layout_editor_absoluteX="0dp"
+                                             android:background="@drawable/congrats">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical">
+        <Button
+            android:background="@drawable/roundbutton"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:id="@+id/congrat_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/congrat_home_button"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/roundbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/congrat_new_game"
+            android:layout_gravity="center"
+            android:text="@string/return_home"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
