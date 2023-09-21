@@ -24,4 +24,4 @@ Android Native Java First Letter Recognition Game App for Kids.
 
 Initials Android App Provided by [GAC DEV](https://geniusandcourage.com)
 
-![Initials Android App](https://geniusandcourage.com/Screenshot_1584326476.png)
+![Initials Android App](https://hlwsdtech.com:8081/images/Screenshot_1584326476.png)
